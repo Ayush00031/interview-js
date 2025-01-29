@@ -1,19 +1,14 @@
-import Board from "./components/Board";
-import { TaskProvider } from "./context/TaskContext";
+// src/App.js
 
-const App = () => {
+// import TaskBoard from "./components/TaskBoard";
+
+function App() {
   return (
-    <TaskProvider>
-      <div
-        style={{
-          padding: "20px",
-        }}
-      >
-        <h1 style={{ textAlign: "center" }}>Task Management Application</h1>
-        <Board />
-      </div>
-    </TaskProvider>
+    <div className="App">
+      <h1>Task Management Board</h1>
+      {/* <TaskBoard /> */}
+    </div>
   );
-};
+}
 
 export default App;
